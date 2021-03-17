@@ -91,12 +91,11 @@ int ListFind(SeqList L, DataType x) {
     
     for (int i = 0; i < ListLength(L); i++)
     {
-        if (x == L.list[i])
-        {
+        if (x == L.list[i]){
             return i;
         }
     }
-    return 0;
+    return -1;
 }
 
 
