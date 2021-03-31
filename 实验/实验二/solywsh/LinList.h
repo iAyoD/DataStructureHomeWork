@@ -38,7 +38,7 @@ int ListInsert(SLNode* head, int i, DataType x) {
 		j++;
 	}
 	if (j != i - 1) {
-		printf("插入元素的位置参数错误！");
+		printf("插入元素的位置参数错误！\n");
 		return 0;
 	}
 
@@ -62,10 +62,9 @@ int ListDelete(SLNode* head, int i, DataType* x) {
 		j++;
 	}
 	if (j!=i-1){
-		printf("删除元素位置参数错误！");
+		printf("删除元素位置参数错误！\n");
 		return 0;
 	}
-
 	s = p->next;
 	*x = s->data;
 	p->next = p->next->next;
@@ -84,7 +83,7 @@ int ListGet(SLNode* head, int i, DataType* x) {
 		j++;
 	}
 	if (j != i) {
-		printf("取元素位置参数错误！");
+		printf("取元素位置参数错误！\n");
 		return 0;
 	}
 
