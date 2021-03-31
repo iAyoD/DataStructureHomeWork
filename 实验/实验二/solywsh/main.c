@@ -27,20 +27,18 @@ void main() {
 	scanf("%d", &x);
 	printf("你需要插入的元素的位置:");
 	scanf("%d", &i);
-	flag = ListInsert(head, i, x);
+	flag = ListInsert(head, i-1 , x);
 	if (flag){
 		printf("插入成功!\n");
 		print(head);
 	}
 	
 	//删除
-	printf("你需要删除的元素:");
-	scanf("%d", &x);
 	printf("你需要删除的元素的位置:");
 	scanf("%d", &i);
-	flag = ListDelete(head, i, &x);
+	flag = ListDelete(head, i-1, &x);
 	if (flag) {
-		printf("删除成功!");
+		printf("元素%d删除成功!\n",x);
 		print(head);
 	}
 
