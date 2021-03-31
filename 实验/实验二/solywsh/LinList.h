@@ -26,7 +26,7 @@ int ListLenght(SLNode* head) {
 	return size;
 }
 
-//插入
+//插入，i 为插入的位置，x为插入的元素，成功返回1，失败返回0
 int ListInsert(SLNode* head, int i, DataType x) {
 	SLNode* p, * q;
 	int j;
@@ -51,7 +51,7 @@ int ListInsert(SLNode* head, int i, DataType x) {
 }
 
 
-//删除
+//删除，i为删除的位置，将删除的元素存储到x，成功返回1，失败返回0
 int ListDelete(SLNode* head, int i, DataType* x) {
 	SLNode* p, * s;
 	int j;
@@ -72,7 +72,7 @@ int ListDelete(SLNode* head, int i, DataType* x) {
 	return 1;
 }
 
-//取数据元素
+//取数据元素，取位置为i的元素x，成功返回1，失败返回0
 int ListGet(SLNode* head, int i, DataType* x) {
 	SLNode* p;
 	int j;
