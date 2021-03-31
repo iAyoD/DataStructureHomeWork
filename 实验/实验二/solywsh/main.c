@@ -52,6 +52,7 @@ void main() {
 
 }
 
+
 void print(SLNode *head) {
 	int i,x;
 	for (i = 0; i < ListLenght(head); i++) {
