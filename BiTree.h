@@ -71,3 +71,27 @@ BiTreeNode *DeleteRightTree(BiTreeNode *curr)
     curr->rightChild = NULL;
     return curr;
 }
+
+void Visit(DataType item, int *cnt)
+{
+    printf("%d  ", item);
+    ++(*cnt);
+}
+
+void PreOrder(BiTreeNode *root, int *cnt, void Visit(DataType item, int *cnt))
+{
+    if(root!=NULL){
+        Visit(root->data, cnt);
+        PreOrder(root->leftChild, cnt, Visit);
+        PreOrder(root->rightChild, cnt, Visit);
+    }
+}
+
+//int NodeNum(BiTreeNode *root)
+//{
+//	if(root==NULL){
+//		return 0;
+//	}else{
+//		return NodeNum(root->leftChild) + NodeNum(root->rightChild) + 1;
+//	}
+//}
