@@ -1,0 +1,6 @@
+F:\VS DATA\solywsh\study\C\数据结构-实验一\Debug\数据结构-实验一.exe
+F:\VS DATA\solywsh\study\C\数据结构-实验一\Debug\数据结构-实验一.pdb
+F:\GithubWarehouse\study\数据结构\DataStructureHomeWork\实验一\Debug\数据结构-实验一.exe
+F:\GithubWarehouse\study\数据结构\DataStructureHomeWork\实验一\Debug\数据结构-实验一.pdb
+F:\GithubWarehouse\study\数据结构\DataStructureHomeWork\实验\实验一\solywsh\Debug\数据结构-实验一.exe
+F:\GithubWarehouse\study\数据结构\DataStructureHomeWork\实验\实验一\solywsh\Debug\数据结构-实验一.pdb
